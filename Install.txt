@@ -1,0 +1,405 @@
+2017-05-23 04:41:47,674 2528 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.10.6.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2017-05-23 04:41:47,674 2528 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.10.6.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2017-05-23 04:41:47,784 2528 [DEBUG] - XmlConfiguration is now operational
+2017-05-23 04:41:47,924 2528 [INFO ] - ============================================================
+2017-05-23 04:41:48,737 2528 [INFO ] - Chocolatey v0.10.5-36-g73b7035
+2017-05-23 04:41:48,783 2528 [DEBUG] - Chocolatey is running on Windows v 6.2.9200.0
+2017-05-23 04:41:48,799 2528 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2017-05-23 04:41:48,799 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2017-05-23 04:41:48,831 2528 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" install visualstudio2012-update --version 5.0.0.0 -fdvy --execution-timeout=2700 --allow-downgrade
+2017-05-23 04:41:48,846 2528 [DEBUG] - Received arguments: install visualstudio2012-update --version 5.0.0.0 -fdvy --execution-timeout=2700 --allow-downgrade
+2017-05-23 04:41:49,017 2528 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2017-05-23 04:41:49,049 2528 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2017-05-23 04:41:49,080 2528 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2017-05-23 04:41:49,284 2528 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2017-05-23 04:41:49,284 2528 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2017-05-23 04:41:49,362 2528 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\Administrator\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='True'|Verbose='True'|Trace='False'|Force='True'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='False'|AcceptLicense='True'|
+AllowUnofficialBuild='False'|Input='visualstudio2012-update'|
+Version='5.0.0.0'|AllVersions='False'|
+SkipPackageInstallProvider='False'|
+PackageNames='visualstudio2012-update'|Prerelease='False'|
+ForceX86='False'|OverrideArguments='False'|NotSilent='False'|
+ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='True'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='6.2.9200.0'|
+Information.PlatformName='Windows Server 2012'|
+Information.ChocolateyVersion='0.10.6.0'|
+Information.ChocolateyProductVersion='0.10.5-36-g73b7035'|
+Information.FullName='choco, Version=0.10.6.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='vagrant'|
+Information.UserDomainName='WIN-E5K8TM30719'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='True'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='True'|Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='False'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|ListCommand.PageSize='25'|
+ListCommand.Exact='False'|ListCommand.ByIdOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+FeatureCommand.Command='unknown'|
+ConfigCommand.Command='unknown'|PinCommand.Command='unknown'|
+Proxy.BypassOnLocal='True'|
+2017-05-23 04:41:49,362 2528 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2017-05-23 04:41:49,393 2528 [INFO ] - Installing the following packages:
+2017-05-23 04:41:49,393 2528 [INFO ] - visualstudio2012-update
+2017-05-23 04:41:49,408 2528 [INFO ] - By installing you accept licenses for the packages.
+2017-05-23 04:41:49,424 2528 [DEBUG] - Current environment values (may contain sensitive data):
+2017-05-23 04:41:49,440 2528 [DEBUG] -   * 'TMP'='C:\Users\Administrator\AppData\Local\Temp' ('User')
+2017-05-23 04:41:49,440 2528 [DEBUG] -   * 'TEMP'='C:\Users\Administrator\AppData\Local\Temp' ('User')
+2017-05-23 04:41:49,440 2528 [DEBUG] -   * 'ChocolateyLastPathUpdate'='Mon May 15 23:35:57 2017' ('User')
+2017-05-23 04:41:49,440 2528 [DEBUG] -   * 'FP_NO_HOST_CHECK'='NO' ('Machine')
+2017-05-23 04:41:49,455 2528 [DEBUG] -   * 'USERNAME'='SYSTEM' ('Machine')
+2017-05-23 04:41:49,455 2528 [DEBUG] -   * 'Path'='C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\ProgramData\chocolatey\bin;' ('Machine')
+2017-05-23 04:41:49,455 2528 [DEBUG] -   * 'ComSpec'='C:\Windows\system32\cmd.exe' ('Machine')
+2017-05-23 04:41:49,455 2528 [DEBUG] -   * 'TMP'='C:\Windows\TEMP' ('Machine')
+2017-05-23 04:41:49,455 2528 [DEBUG] -   * 'OS'='Windows_NT' ('Machine')
+2017-05-23 04:41:49,471 2528 [DEBUG] -   * 'windir'='C:\Windows' ('Machine')
+2017-05-23 04:41:49,471 2528 [DEBUG] -   * 'PROCESSOR_ARCHITECTURE'='AMD64' ('Machine')
+2017-05-23 04:41:49,471 2528 [DEBUG] -   * 'TEMP'='C:\Windows\TEMP' ('Machine')
+2017-05-23 04:41:49,471 2528 [DEBUG] -   * 'PATHEXT'='.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC' ('Machine')
+2017-05-23 04:41:49,486 2528 [DEBUG] -   * 'PSModulePath'='C:\Windows\system32\WindowsPowerShell\v1.0\Modules\' ('Machine')
+2017-05-23 04:41:49,486 2528 [DEBUG] -   * 'NUMBER_OF_PROCESSORS'='4' ('Machine')
+2017-05-23 04:41:49,486 2528 [DEBUG] -   * 'PROCESSOR_LEVEL'='6' ('Machine')
+2017-05-23 04:41:49,486 2528 [DEBUG] -   * 'PROCESSOR_IDENTIFIER'='Intel64 Family 6 Model 45 Stepping 7, GenuineIntel' ('Machine')
+2017-05-23 04:41:49,502 2528 [DEBUG] -   * 'PROCESSOR_REVISION'='2d07' ('Machine')
+2017-05-23 04:41:49,502 2528 [DEBUG] -   * 'HOME'='C:\Users\Administrator' ('Machine')
+2017-05-23 04:41:49,502 2528 [DEBUG] -   * 'ChocolateyInstall'='C:\ProgramData\chocolatey' ('Machine')
+2017-05-23 04:41:51,736 2528 [INFO ] - [NuGet] Attempting to resolve dependency 'vs2012.5'.
+2017-05-23 04:41:54,908 2528 [INFO ] - [NuGet] Installing 'vs2012.5 11.0.61219.0'.
+2017-05-23 04:41:54,940 2528 [DEBUG] - [NuGet] Added file 'chocolateyInstall.ps1' to folder 'vs2012.5\tools'.
+2017-05-23 04:41:55,127 2528 [DEBUG] - [NuGet] Added file 'vs2012.5.nuspec' to folder 'vs2012.5'.
+2017-05-23 04:41:55,142 2528 [DEBUG] - [NuGet] Added file 'vs2012.5.nupkg' to folder 'vs2012.5'.
+2017-05-23 04:41:55,142 2528 [INFO ] - [NuGet] Successfully installed 'vs2012.5 11.0.61219.0'.
+2017-05-23 04:41:55,158 2528 [INFO ] - 
+vs2012.5 v11.0.61219.0 (forced) [Approved]
+2017-05-23 04:41:55,221 2528 [INFO ] - vs2012.5 package files install completed. Performing other installation steps.
+2017-05-23 04:41:55,424 2528 [DEBUG] - Contents of 'C:\ProgramData\chocolatey\lib\vs2012.5\tools\chocolateyInstall.ps1':
+2017-05-23 04:41:55,471 2528 [DEBUG] - $arguments = @{
+    packageName = 'vs2012.5'
+    url = 'http://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe'
+    checksumType = 'sha1'
+    checksum = '577B762ED1FC3A7046840D6588E0CC4462ABBC0C'
+    installerType = 'exe'
+    silentArgs = "/Passive /NoRestart /Log ""${Env:TEMP}\VS2012.5.log"""
+    validExitCodes = @(0, 3010)
+}
+Install-ChocolateyPackage @arguments
+
+2017-05-23 04:41:55,581 2528 [DEBUG] - Calling built-in PowerShell host with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1'; & 'C:\ProgramData\chocolatey\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\ProgramData\chocolatey\lib\vs2012.5\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters ''']
+2017-05-23 04:41:55,596 2528 [DEBUG] - Redirecting System.Management.Automation.resources, Version=3.0.0.0, Culture=en-US, PublicKeyToken=31bf3856ad364e35, requested by ''
+2017-05-23 04:41:56,705 2528 [DEBUG] - Host version is 4.0, PowerShell Version is '4.0' and CLR Version is '4.0.30319.33440'.
+2017-05-23 04:41:57,049 2528 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2017-05-23 04:41:57,049 2528 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2017-05-23 04:41:57,064 2528 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2017-05-23 04:41:57,064 2528 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2017-05-23 04:41:57,064 2528 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2017-05-23 04:41:57,080 2528 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2017-05-23 04:41:57,080 2528 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2017-05-23 04:41:57,096 2528 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2017-05-23 04:41:57,096 2528 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2017-05-23 04:41:57,096 2528 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2017-05-23 04:41:57,111 2528 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2017-05-23 04:41:57,111 2528 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2017-05-23 04:41:57,111 2528 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2017-05-23 04:41:57,127 2528 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2017-05-23 04:41:57,127 2528 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2017-05-23 04:41:57,127 2528 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2017-05-23 04:41:57,143 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2017-05-23 04:41:57,143 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2017-05-23 04:41:57,158 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2017-05-23 04:41:57,158 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2017-05-23 04:41:57,158 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2017-05-23 04:41:57,174 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2017-05-23 04:41:57,174 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2017-05-23 04:41:57,174 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2017-05-23 04:41:57,189 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2017-05-23 04:41:57,189 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2017-05-23 04:41:57,205 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2017-05-23 04:41:57,205 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2017-05-23 04:41:57,205 2528 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2017-05-23 04:41:57,221 2528 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2017-05-23 04:41:57,221 2528 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2017-05-23 04:41:57,221 2528 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2017-05-23 04:41:57,236 2528 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2017-05-23 04:41:57,236 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2017-05-23 04:41:57,252 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2017-05-23 04:41:57,252 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2017-05-23 04:41:57,252 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2017-05-23 04:41:57,267 2528 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2017-05-23 04:41:57,267 2528 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2017-05-23 04:41:57,267 2528 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2017-05-23 04:41:57,283 2528 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2017-05-23 04:41:57,283 2528 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2017-05-23 04:41:57,299 2528 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2017-05-23 04:41:57,299 2528 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2017-05-23 04:41:57,299 2528 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2017-05-23 04:41:57,314 2528 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2017-05-23 04:41:57,314 2528 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2017-05-23 04:41:57,314 2528 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2017-05-23 04:41:57,330 2528 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2017-05-23 04:41:57,330 2528 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2017-05-23 04:41:57,330 2528 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2017-05-23 04:41:57,361 2528 [INFO ] - VERBOSE: Exporting function 'Format-FileSize'.
+2017-05-23 04:41:57,361 2528 [INFO ] - VERBOSE: Exporting function 'Get-ChecksumValid'.
+2017-05-23 04:41:57,361 2528 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyUnzip'.
+2017-05-23 04:41:57,377 2528 [INFO ] - VERBOSE: Exporting function 'Get-ChocolateyWebFile'.
+2017-05-23 04:41:57,377 2528 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariable'.
+2017-05-23 04:41:57,377 2528 [INFO ] - VERBOSE: Exporting function 'Get-EnvironmentVariableNames'.
+2017-05-23 04:41:57,392 2528 [INFO ] - VERBOSE: Exporting function 'Get-FtpFile'.
+2017-05-23 04:41:57,392 2528 [INFO ] - VERBOSE: Exporting function 'Get-OSArchitectureWidth'.
+2017-05-23 04:41:57,408 2528 [INFO ] - VERBOSE: Exporting function 'Get-ToolsLocation'.
+2017-05-23 04:41:57,408 2528 [INFO ] - VERBOSE: Exporting function 'Get-UACEnabled'.
+2017-05-23 04:41:57,408 2528 [INFO ] - VERBOSE: Exporting function 'Get-UninstallRegistryKey'.
+2017-05-23 04:41:57,424 2528 [INFO ] - VERBOSE: Exporting function 'Get-VirusCheckValid'.
+2017-05-23 04:41:57,424 2528 [INFO ] - VERBOSE: Exporting function 'Get-WebFile'.
+2017-05-23 04:41:57,424 2528 [INFO ] - VERBOSE: Exporting function 'Get-WebFileName'.
+2017-05-23 04:41:57,439 2528 [INFO ] - VERBOSE: Exporting function 'Get-WebHeaders'.
+2017-05-23 04:41:57,439 2528 [INFO ] - VERBOSE: Exporting function 'Install-BinFile'.
+2017-05-23 04:41:57,439 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyDesktopLink'.
+2017-05-23 04:41:57,455 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyEnvironmentVariable'.
+2017-05-23 04:41:57,455 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyExplorerMenuItem'.
+2017-05-23 04:41:57,455 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyFileAssociation'.
+2017-05-23 04:41:57,471 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyInstallPackage'.
+2017-05-23 04:41:57,471 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPackage'.
+2017-05-23 04:41:57,486 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPath'.
+2017-05-23 04:41:57,486 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPinnedTaskBarItem'.
+2017-05-23 04:41:57,486 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyPowershellCommand'.
+2017-05-23 04:41:57,502 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyShortcut'.
+2017-05-23 04:41:57,502 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyVsixPackage'.
+2017-05-23 04:41:57,502 2528 [INFO ] - VERBOSE: Exporting function 'Install-ChocolateyZipPackage'.
+2017-05-23 04:41:57,518 2528 [INFO ] - VERBOSE: Exporting function 'Install-Vsix'.
+2017-05-23 04:41:57,518 2528 [INFO ] - VERBOSE: Exporting function 'Set-EnvironmentVariable'.
+2017-05-23 04:41:57,533 2528 [INFO ] - VERBOSE: Exporting function 'Set-PowerShellExitCode'.
+2017-05-23 04:41:57,533 2528 [INFO ] - VERBOSE: Exporting function 'Start-ChocolateyProcessAsAdmin'.
+2017-05-23 04:41:57,533 2528 [INFO ] - VERBOSE: Exporting function 'Test-ProcessAdminRights'.
+2017-05-23 04:41:57,549 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-BinFile'.
+2017-05-23 04:41:57,564 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyEnvironmentVariable'.
+2017-05-23 04:41:57,564 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyPackage'.
+2017-05-23 04:41:57,580 2528 [INFO ] - VERBOSE: Exporting function 'Uninstall-ChocolateyZipPackage'.
+2017-05-23 04:41:57,580 2528 [INFO ] - VERBOSE: Exporting function 'Update-SessionEnvironment'.
+2017-05-23 04:41:57,596 2528 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateyFailure'.
+2017-05-23 04:41:57,596 2528 [INFO ] - VERBOSE: Exporting function 'Write-ChocolateySuccess'.
+2017-05-23 04:41:57,596 2528 [INFO ] - VERBOSE: Exporting function 'Write-FileUpdateLog'.
+2017-05-23 04:41:57,611 2528 [INFO ] - VERBOSE: Exporting function 'Write-FunctionCallLogMessage'.
+2017-05-23 04:41:57,611 2528 [INFO ] - VERBOSE: Exporting alias 'Get-ProcessorBits'.
+2017-05-23 04:41:57,627 2528 [INFO ] - VERBOSE: Exporting alias 'Get-OSBitness'.
+2017-05-23 04:41:57,627 2528 [INFO ] - VERBOSE: Exporting alias 'Get-InstallRegistryKey'.
+2017-05-23 04:41:57,627 2528 [INFO ] - VERBOSE: Exporting alias 'Generate-BinFile'.
+2017-05-23 04:41:57,642 2528 [INFO ] - VERBOSE: Exporting alias 'Add-BinFile'.
+2017-05-23 04:41:57,642 2528 [INFO ] - VERBOSE: Exporting alias 'Start-ChocolateyProcess'.
+2017-05-23 04:41:57,658 2528 [INFO ] - VERBOSE: Exporting alias 'Invoke-ChocolateyProcess'.
+2017-05-23 04:41:57,658 2528 [INFO ] - VERBOSE: Exporting alias 'Remove-BinFile'.
+2017-05-23 04:41:57,658 2528 [INFO ] - VERBOSE: Exporting alias 'refreshenv'.
+2017-05-23 04:41:57,674 2528 [INFO ] - VERBOSE: Importing function 'Format-FileSize'.
+2017-05-23 04:41:57,674 2528 [INFO ] - VERBOSE: Importing function 'Get-ChecksumValid'.
+2017-05-23 04:41:57,689 2528 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyUnzip'.
+2017-05-23 04:41:57,689 2528 [INFO ] - VERBOSE: Importing function 'Get-ChocolateyWebFile'.
+2017-05-23 04:41:57,689 2528 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariable'.
+2017-05-23 04:41:57,705 2528 [INFO ] - VERBOSE: Importing function 'Get-EnvironmentVariableNames'.
+2017-05-23 04:41:57,705 2528 [INFO ] - VERBOSE: Importing function 'Get-FtpFile'.
+2017-05-23 04:41:57,705 2528 [INFO ] - VERBOSE: Importing function 'Get-OSArchitectureWidth'.
+2017-05-23 04:41:57,721 2528 [INFO ] - VERBOSE: Importing function 'Get-ToolsLocation'.
+2017-05-23 04:41:57,721 2528 [INFO ] - VERBOSE: Importing function 'Get-UACEnabled'.
+2017-05-23 04:41:57,736 2528 [INFO ] - VERBOSE: Importing function 'Get-UninstallRegistryKey'.
+2017-05-23 04:41:57,736 2528 [INFO ] - VERBOSE: Importing function 'Get-VirusCheckValid'.
+2017-05-23 04:41:57,752 2528 [INFO ] - VERBOSE: Importing function 'Get-WebFile'.
+2017-05-23 04:41:57,752 2528 [INFO ] - VERBOSE: Importing function 'Get-WebFileName'.
+2017-05-23 04:41:57,768 2528 [INFO ] - VERBOSE: Importing function 'Get-WebHeaders'.
+2017-05-23 04:41:57,768 2528 [INFO ] - VERBOSE: Importing function 'Install-BinFile'.
+2017-05-23 04:41:57,783 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyDesktopLink'.
+2017-05-23 04:41:57,783 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyEnvironmentVariable'.
+2017-05-23 04:41:57,783 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyExplorerMenuItem'.
+2017-05-23 04:41:57,799 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyFileAssociation'.
+2017-05-23 04:41:57,799 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyInstallPackage'.
+2017-05-23 04:41:57,799 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPackage'.
+2017-05-23 04:41:57,814 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPath'.
+2017-05-23 04:41:57,814 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPinnedTaskBarItem'.
+2017-05-23 04:41:57,814 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyPowershellCommand'.
+2017-05-23 04:41:57,830 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyShortcut'.
+2017-05-23 04:41:57,830 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyVsixPackage'.
+2017-05-23 04:41:57,830 2528 [INFO ] - VERBOSE: Importing function 'Install-ChocolateyZipPackage'.
+2017-05-23 04:41:57,846 2528 [INFO ] - VERBOSE: Importing function 'Install-Vsix'.
+2017-05-23 04:41:57,846 2528 [INFO ] - VERBOSE: Importing function 'Set-EnvironmentVariable'.
+2017-05-23 04:41:57,861 2528 [INFO ] - VERBOSE: Importing function 'Set-PowerShellExitCode'.
+2017-05-23 04:41:57,861 2528 [INFO ] - VERBOSE: Importing function 'Start-ChocolateyProcessAsAdmin'.
+2017-05-23 04:41:57,861 2528 [INFO ] - VERBOSE: Importing function 'Test-ProcessAdminRights'.
+2017-05-23 04:41:57,877 2528 [INFO ] - VERBOSE: Importing function 'Uninstall-BinFile'.
+2017-05-23 04:41:57,877 2528 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyEnvironmentVariable'.
+2017-05-23 04:41:57,877 2528 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyPackage'.
+2017-05-23 04:41:57,893 2528 [INFO ] - VERBOSE: Importing function 'Uninstall-ChocolateyZipPackage'.
+2017-05-23 04:41:57,893 2528 [INFO ] - VERBOSE: Importing function 'Update-SessionEnvironment'.
+2017-05-23 04:41:57,908 2528 [INFO ] - VERBOSE: Importing function 'Write-ChocolateyFailure'.
+2017-05-23 04:41:57,908 2528 [INFO ] - VERBOSE: Importing function 'Write-ChocolateySuccess'.
+2017-05-23 04:41:57,908 2528 [INFO ] - VERBOSE: Importing function 'Write-FileUpdateLog'.
+2017-05-23 04:41:57,924 2528 [INFO ] - VERBOSE: Importing function 'Write-FunctionCallLogMessage'.
+2017-05-23 04:41:57,924 2528 [INFO ] - VERBOSE: Importing alias 'Add-BinFile'.
+2017-05-23 04:41:57,939 2528 [INFO ] - VERBOSE: Importing alias 'Generate-BinFile'.
+2017-05-23 04:41:57,939 2528 [INFO ] - VERBOSE: Importing alias 'Get-InstallRegistryKey'.
+2017-05-23 04:41:57,939 2528 [INFO ] - VERBOSE: Importing alias 'Get-OSBitness'.
+2017-05-23 04:41:57,955 2528 [INFO ] - VERBOSE: Importing alias 'Get-ProcessorBits'.
+2017-05-23 04:41:57,955 2528 [INFO ] - VERBOSE: Importing alias 'Invoke-ChocolateyProcess'.
+2017-05-23 04:41:57,971 2528 [INFO ] - VERBOSE: Importing alias 'refreshenv'.
+2017-05-23 04:41:57,971 2528 [INFO ] - VERBOSE: Importing alias 'Remove-BinFile'.
+2017-05-23 04:41:57,971 2528 [INFO ] - VERBOSE: Importing alias 'Start-ChocolateyProcess'.
+2017-05-23 04:41:58,267 2528 [DEBUG] - Running 'ChocolateyScriptRunner' for vs2012.5 v11.0.61219.0 with packageScript 'C:\ProgramData\chocolatey\lib\vs2012.5\tools\chocolateyInstall.ps1', packageFolder:'C:\ProgramData\chocolatey\lib\vs2012.5', installArguments: '', packageParameters: '',
+2017-05-23 04:41:58,314 2528 [DEBUG] - Running 'C:\ProgramData\chocolatey\lib\vs2012.5\tools\chocolateyInstall.ps1'
+2017-05-23 04:41:58,502 2528 [DEBUG] - Running Install-ChocolateyPackage -silentArgs '/Passive /NoRestart /Log "C:\Users\Administrator\AppData\Local\Temp\chocolatey\VS2012.5.log"' -checksum '577B762ED1FC3A7046840D6588E0CC4462ABBC0C' -checksumType 'sha1' -fileType 'exe' -validExitCodes '0 3010' -url 'http://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' -packageName 'vs2012.5' 
+2017-05-23 04:41:58,689 2528 [DEBUG] - Running Get-ChocolateyWebFile -packageName 'vs2012.5' -fileFullPath 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\vs2012.5Install.exe' -url 'http://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' -url64bit '' -checksum '577B762ED1FC3A7046840D6588E0CC4462ABBC0C' -checksumType 'sha1' -checksum64 '' -checksumType64 '' -options 'System.Collections.Hashtable' -getOriginalFileName 'True' 
+2017-05-23 04:41:58,736 2528 [DEBUG] - Running Get-ProcessorBits -compare '64' 
+2017-05-23 04:41:58,783 2528 [DEBUG] - CPU is 64 bit
+2017-05-23 04:41:58,847 2528 [DEBUG] - Running Get-WebHeaders -url 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' -ErrorAction 'Stop' 
+2017-05-23 04:41:59,033 2528 [DEBUG] - Setting the UserAgent to 'chocolatey command line'
+2017-05-23 04:41:59,049 2528 [DEBUG] - Request Headers:
+2017-05-23 04:41:59,080 2528 [DEBUG] -   'Accept':'*/*'
+2017-05-23 04:41:59,096 2528 [DEBUG] -   'User-Agent':'chocolatey command line'
+2017-05-23 04:41:59,393 2528 [DEBUG] - Response Headers:
+2017-05-23 04:41:59,424 2528 [DEBUG] -   'Content-Disposition':'attachment'
+2017-05-23 04:41:59,439 2528 [DEBUG] -   'Connection':'keep-alive'
+2017-05-23 04:41:59,439 2528 [DEBUG] -   'Accept-Ranges':'bytes'
+2017-05-23 04:41:59,439 2528 [DEBUG] -   'Content-Length':'1368616'
+2017-05-23 04:41:59,455 2528 [DEBUG] -   'Content-Type':'application/octet-stream'
+2017-05-23 04:41:59,455 2528 [DEBUG] -   'Date':'Tue, 23 May 2017 04:41:59 GMT'
+2017-05-23 04:41:59,455 2528 [DEBUG] -   'ETag':'"26b572e19cd6d01:0"'
+2017-05-23 04:41:59,471 2528 [DEBUG] -   'Last-Modified':'Fri, 14 Aug 2015 14:24:07 GMT'
+2017-05-23 04:41:59,471 2528 [DEBUG] -   'Server':'Microsoft-IIS/8.5'
+2017-05-23 04:41:59,517 2528 [WARN ] - WARNING: Url has SSL/TLS available, switching to HTTPS for download
+2017-05-23 04:41:59,580 2528 [DEBUG] - Running Get-WebFileName -url 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' -defaultName 'vs2012.5Install.exe' 
+2017-05-23 04:41:59,753 2528 [DEBUG] - Using response url to determine file name. 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe'
+2017-05-23 04:41:59,767 2528 [DEBUG] - File name determined from url is 'VS2012.5.exe'
+2017-05-23 04:41:59,799 2528 [DEBUG] - Running Get-WebHeaders -url 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' -ErrorAction 'Stop' 
+2017-05-23 04:41:59,799 2528 [DEBUG] - Setting the UserAgent to 'chocolatey command line'
+2017-05-23 04:41:59,814 2528 [DEBUG] - Request Headers:
+2017-05-23 04:41:59,814 2528 [DEBUG] -   'Accept':'*/*'
+2017-05-23 04:41:59,814 2528 [DEBUG] -   'User-Agent':'chocolatey command line'
+2017-05-23 04:41:59,846 2528 [DEBUG] - Response Headers:
+2017-05-23 04:41:59,846 2528 [DEBUG] -   'Content-Disposition':'attachment'
+2017-05-23 04:41:59,861 2528 [DEBUG] -   'Connection':'keep-alive'
+2017-05-23 04:41:59,861 2528 [DEBUG] -   'Accept-Ranges':'bytes'
+2017-05-23 04:41:59,861 2528 [DEBUG] -   'Content-Length':'1368616'
+2017-05-23 04:41:59,861 2528 [DEBUG] -   'Content-Type':'application/octet-stream'
+2017-05-23 04:41:59,877 2528 [DEBUG] -   'Date':'Tue, 23 May 2017 04:41:59 GMT'
+2017-05-23 04:41:59,877 2528 [DEBUG] -   'ETag':'"26b572e19cd6d01:0"'
+2017-05-23 04:41:59,877 2528 [DEBUG] -   'Last-Modified':'Fri, 14 Aug 2015 14:24:07 GMT'
+2017-05-23 04:41:59,877 2528 [DEBUG] -   'Server':'Microsoft-IIS/8.5'
+2017-05-23 04:41:59,939 2528 [INFO ] - Downloading vs2012.5 
+  from 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe'
+2017-05-23 04:41:59,939 2528 [INFO ] - 
+2017-05-23 04:42:00,002 2528 [DEBUG] - Running Get-WebFile -url 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' -fileName 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe' -options 'System.Collections.Hashtable' 
+2017-05-23 04:42:00,019 2528 [DEBUG] - Setting request timeout to  30000
+2017-05-23 04:42:00,019 2528 [DEBUG] - Setting read/write timeout to  2700000
+2017-05-23 04:42:00,019 2528 [DEBUG] - Setting the UserAgent to 'chocolatey command line'
+2017-05-23 04:42:00,502 2528 [DEBUG] - Downloading https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe to C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe
+2017-05-23 04:42:00,689 2528 [INFO ] - 
+2017-05-23 04:42:00,705 2528 [INFO ] - Download of VS2012.5.exe (1.31 MB) completed.
+2017-05-23 04:42:00,705 2528 [INFO ] - 
+2017-05-23 04:42:03,768 2528 [DEBUG] - No runtime virus checking built into FOSS Chocolatey. Check out Pro/Business - https://chocolatey.org/compare
+2017-05-23 04:42:03,783 2528 [DEBUG] - Verifying package provided checksum of '577B762ED1FC3A7046840D6588E0CC4462ABBC0C' for 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe'.
+2017-05-23 04:42:03,831 2528 [DEBUG] - Running Get-ChecksumValid -file 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe' -checksum '577B762ED1FC3A7046840D6588E0CC4462ABBC0C' -checksumType 'sha1' -originalUrl 'https://download.microsoft.com/download/1/7/A/17A8493D-BB25-4811-8242-CCCB74EF982E/VS2012.5.exe' 
+2017-05-23 04:42:03,846 2528 [DEBUG] - checksum.exe found at 'C:\ProgramData\chocolatey\helpers\..\tools\checksum.exe'
+2017-05-23 04:42:03,861 2528 [DEBUG] - Executing command ['C:\ProgramData\chocolatey\helpers\..\tools\checksum.exe' -c="577B762ED1FC3A7046840D6588E0CC4462ABBC0C" -t="sha1" -f="C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe"]
+2017-05-23 04:42:04,080 2528 [DEBUG] - Command ['C:\ProgramData\chocolatey\helpers\..\tools\checksum.exe' -c="577B762ED1FC3A7046840D6588E0CC4462ABBC0C" -t="sha1" -f="C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe"] exited with '0'.
+2017-05-23 04:42:04,175 2528 [DEBUG] - Running Install-ChocolateyInstallPackage -packageName 'vs2012.5' -fileType 'exe' -silentArgs '/Passive /NoRestart /Log "C:\Users\Administrator\AppData\Local\Temp\chocolatey\VS2012.5.log"' -file 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe' -validExitCodes '0 3010' -useOnlyPackageSilentArguments 'False' 
+2017-05-23 04:42:04,175 2528 [DEBUG] - Running Get-ProcessorBits -compare '32' 
+2017-05-23 04:42:04,190 2528 [INFO ] - Installing vs2012.5...
+2017-05-23 04:42:04,190 2528 [INFO ] - 
+2017-05-23 04:42:04,346 2528 [DEBUG] - Ensuring 'C:\Users\Administrator\AppData\Local\Temp\chocolatey' exists
+2017-05-23 04:42:04,425 2528 [DEBUG] - Running Start-ChocolateyProcessAsAdmin -validExitCodes '0 3010' -workingDirectory 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0' -statements '/Passive /NoRestart /Log "C:\Users\Administrator\AppData\Local\Temp\chocolatey\VS2012.5.log" ' -exeToRun 'C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe' 
+2017-05-23 04:42:04,502 2528 [DEBUG] - Test-ProcessAdminRights: returning True
+2017-05-23 04:42:04,518 2528 [DEBUG] - Elevating permissions and running ["C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe" /Passive /NoRestart /Log "C:\Users\Administrator\AppData\Local\Temp\chocolatey\VS2012.5.log" ]. This may take a while, depending on the statements.
+2017-05-23 04:43:25,986 2528 [DEBUG] - Command ["C:\Users\Administrator\AppData\Local\Temp\chocolatey\vs2012.5\11.0.61219.0\VS2012.5.exe" /Passive /NoRestart /Log "C:\Users\Administrator\AppData\Local\Temp\chocolatey\VS2012.5.log" ] exited with '0'.
+2017-05-23 04:43:26,017 2528 [DEBUG] - Finishing 'Start-ChocolateyProcessAsAdmin'
+2017-05-23 04:43:26,033 2528 [INFO ] - vs2012.5 has been installed.
+2017-05-23 04:43:26,033 2528 [INFO ] - 
+2017-05-23 04:43:26,096 2528 [DEBUG] - Built-in PowerShell host called with ['[System.Threading.Thread]::CurrentThread.CurrentCulture = '';[System.Threading.Thread]::CurrentThread.CurrentUICulture = ''; & import-module -name 'C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1'; & 'C:\ProgramData\chocolatey\helpers\chocolateyScriptRunner.ps1' -packageScript 'C:\ProgramData\chocolatey\lib\vs2012.5\tools\chocolateyInstall.ps1' -installArguments '' -packageParameters '''] exited with '0'.
+2017-05-23 04:43:26,111 2528 [DEBUG] - Calling command ['"C:\Windows\System32\shutdown.exe" /a']
+2017-05-23 04:43:26,158 2528 [DEBUG] - Command ['"C:\Windows\System32\shutdown.exe" /a'] exited with '1116'
+2017-05-23 04:43:26,175 2528 [INFO ] -   vs2012.5 may be able to be automatically uninstalled.
+2017-05-23 04:43:26,408 2528 [DEBUG] - Capturing package files in 'C:\ProgramData\chocolatey\lib\vs2012.5'
+2017-05-23 04:43:26,424 2528 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\vs2012.5\vs2012.5.nupkg'
+  with checksum '84FB86899EBF5B7EDFDCA7AEC5F39EA8'
+2017-05-23 04:43:26,424 2528 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\vs2012.5\vs2012.5.nuspec'
+  with checksum 'CF92F76B61A940968F076FE746A8DDD7'
+2017-05-23 04:43:26,424 2528 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\vs2012.5\tools\chocolateyInstall.ps1'
+  with checksum '070C1C5491A8A6795465923904D69364'
+2017-05-23 04:43:26,518 2528 [DEBUG] - Adding 'Hidden' attribute(s) to 'C:\ProgramData\chocolatey\.chocolatey'.
+2017-05-23 04:43:26,580 2528 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\.chocolatey\vs2012.5.11.0.61219.0".
+2017-05-23 04:43:26,721 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\vs2012.5.11.0.61219.0\.extra".
+2017-05-23 04:43:26,721 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\vs2012.5.11.0.61219.0\.version".
+2017-05-23 04:43:26,736 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\vs2012.5.11.0.61219.0\.sxs".
+2017-05-23 04:43:26,736 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\vs2012.5.11.0.61219.0\.pin".
+2017-05-23 04:43:26,752 2528 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2017-05-23 04:43:26,752 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\lib\vs2012.5\.chocolateyPending".
+2017-05-23 04:43:26,768 2528 [INFO ] -  The install of vs2012.5 was successful.
+2017-05-23 04:43:26,768 2528 [INFO ] -   Software installed to 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\Blend\'
+2017-05-23 04:43:26,783 2528 [INFO ] - [NuGet] Installing 'visualstudio2012-update 5.0.0.0'.
+2017-05-23 04:43:26,893 2528 [DEBUG] - [NuGet] Added file 'visualstudio2012-update.nuspec' to folder 'visualstudio2012-update'.
+2017-05-23 04:43:26,908 2528 [DEBUG] - [NuGet] Added file 'visualstudio2012-update.nupkg' to folder 'visualstudio2012-update'.
+2017-05-23 04:43:26,908 2528 [INFO ] - [NuGet] Successfully installed 'visualstudio2012-update 5.0.0.0'.
+2017-05-23 04:43:26,908 2528 [INFO ] - 
+visualstudio2012-update v5.0.0.0 (forced) [Approved]
+2017-05-23 04:43:26,924 2528 [INFO ] - visualstudio2012-update package files install completed. Performing other installation steps.
+2017-05-23 04:43:26,939 2528 [DEBUG] - Capturing package files in 'C:\ProgramData\chocolatey\lib\visualstudio2012-update'
+2017-05-23 04:43:26,939 2528 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nupkg'
+  with checksum 'C227D8953DE38D97C86189F14B62BC19'
+2017-05-23 04:43:26,939 2528 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nuspec'
+  with checksum '5B6AF1B3F7B218733F89230AA85484B3'
+2017-05-23 04:43:26,955 2528 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\.chocolatey\visualstudio2012-update.5.0.0.0".
+2017-05-23 04:43:26,971 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\visualstudio2012-update.5.0.0.0\.extra".
+2017-05-23 04:43:26,971 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\visualstudio2012-update.5.0.0.0\.version".
+2017-05-23 04:43:26,971 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\visualstudio2012-update.5.0.0.0\.sxs".
+2017-05-23 04:43:26,986 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\visualstudio2012-update.5.0.0.0\.pin".
+2017-05-23 04:43:26,986 2528 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2017-05-23 04:43:26,986 2528 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\lib\visualstudio2012-update\.chocolateyPending".
+2017-05-23 04:43:27,002 2528 [INFO ] -  The install of visualstudio2012-update was successful.
+2017-05-23 04:43:27,002 2528 [INFO ] -   Software install location not explicitly set, could be in package or 
+  default install location if installer.
+2017-05-23 04:43:27,017 2528 [DEBUG] - Attempting to delete file "C:\Users\Administrator\AppData\Local\NuGet\Cache\visualstudio2012-update.5.0.0.0.nupkg".
+2017-05-23 04:43:27,081 2528 [WARN ] - 
+Chocolatey installed 2/2 packages. 0 packages failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2017-05-23 04:43:27,096 2528 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2017-05-23 04:43:27,143 2528 [DEBUG] - Exiting with 0

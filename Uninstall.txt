@@ -1,0 +1,146 @@
+2017-05-23 04:44:02,003 3064 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.10.6.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2017-05-23 04:44:02,003 3064 [DEBUG] - Configured chocolatey.infrastructure.logging.log4net.config.xml from assembly choco, Version=0.10.6.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb
+2017-05-23 04:44:02,142 3064 [DEBUG] - XmlConfiguration is now operational
+2017-05-23 04:44:02,299 3064 [INFO ] - ============================================================
+2017-05-23 04:44:02,971 3064 [INFO ] - Chocolatey v0.10.5-36-g73b7035
+2017-05-23 04:44:03,017 3064 [DEBUG] - Chocolatey is running on Windows v 6.2.9200.0
+2017-05-23 04:44:03,033 3064 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2017-05-23 04:44:03,033 3064 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2017-05-23 04:44:03,064 3064 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" uninstall visualstudio2012-update --version 5.0.0.0 -dvy --execution-timeout=2700
+2017-05-23 04:44:03,064 3064 [DEBUG] - Received arguments: uninstall visualstudio2012-update --version 5.0.0.0 -dvy --execution-timeout=2700
+2017-05-23 04:44:03,252 3064 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2017-05-23 04:44:03,284 3064 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2017-05-23 04:44:03,315 3064 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2017-05-23 04:44:03,502 3064 [DEBUG] - The source 'https://chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2017-05-23 04:44:03,519 3064 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple 
+ check to be sure no sensitive data is shown, especially if copying 
+ output to a gist for review.
+2017-05-23 04:44:03,564 3064 [DEBUG] - Configuration: CommandName='uninstall'|
+CacheLocation='C:\Users\Administrator\AppData\Local\Temp\chocolatey'|
+ContainsLegacyPackageInstalls='True'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://chocolatey.org/api/v2/'|SourceType='normal'|
+Debug='True'|Verbose='True'|Trace='False'|Force='False'|Noop='False'|
+HelpRequested='False'|UnsuccessfulParsing='False'|RegularOutput='True'|
+QuietOutput='False'|PromptForConfirmation='False'|AcceptLicense='True'|
+AllowUnofficialBuild='False'|Input='visualstudio2012-update'|
+Version='5.0.0.0'|AllVersions='False'|
+SkipPackageInstallProvider='False'|
+PackageNames='visualstudio2012-update'|Prerelease='False'|
+ForceX86='False'|OverrideArguments='False'|NotSilent='False'|
+ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+AllowMultipleVersions='False'|AllowDowngrade='False'|
+ForceDependencies='False'|Information.PlatformType='Windows'|
+Information.PlatformVersion='6.2.9200.0'|
+Information.PlatformName='Windows Server 2012'|
+Information.ChocolateyVersion='0.10.6.0'|
+Information.ChocolateyProductVersion='0.10.5-36-g73b7035'|
+Information.FullName='choco, Version=0.10.6.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='vagrant'|
+Information.UserDomainName='WIN-E5K8TM30719'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='True'|
+Information.IsLicensedVersion='False'|Information.LicenseType='Foss'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='True'|Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='False'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.ScriptsCheckLastExitCode='False'|
+ListCommand.LocalOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|ListCommand.PageSize='25'|
+ListCommand.Exact='False'|ListCommand.ByIdOnly='False'|
+ListCommand.IdStartsWith='False'|ListCommand.OrderByPopularity='False'|
+ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+FeatureCommand.Command='unknown'|
+ConfigCommand.Command='unknown'|PinCommand.Command='unknown'|
+Proxy.BypassOnLocal='True'|
+2017-05-23 04:44:03,596 3064 [DEBUG] - _ Chocolatey:ChocolateyUninstallCommand - Normal Run Mode _
+2017-05-23 04:44:03,611 3064 [INFO ] - Uninstalling the following packages:
+2017-05-23 04:44:03,611 3064 [INFO ] - visualstudio2012-update
+2017-05-23 04:44:03,642 3064 [DEBUG] - Current environment values (may contain sensitive data):
+2017-05-23 04:44:03,642 3064 [DEBUG] -   * 'TMP'='C:\Users\Administrator\AppData\Local\Temp' ('User')
+2017-05-23 04:44:03,658 3064 [DEBUG] -   * 'TEMP'='C:\Users\Administrator\AppData\Local\Temp' ('User')
+2017-05-23 04:44:03,658 3064 [DEBUG] -   * 'ChocolateyLastPathUpdate'='Mon May 15 23:35:57 2017' ('User')
+2017-05-23 04:44:03,658 3064 [DEBUG] -   * 'FP_NO_HOST_CHECK'='NO' ('Machine')
+2017-05-23 04:44:03,658 3064 [DEBUG] -   * 'USERNAME'='SYSTEM' ('Machine')
+2017-05-23 04:44:03,674 3064 [DEBUG] -   * 'Path'='C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\ProgramData\chocolatey\bin;' ('Machine')
+2017-05-23 04:44:03,674 3064 [DEBUG] -   * 'ComSpec'='C:\Windows\system32\cmd.exe' ('Machine')
+2017-05-23 04:44:03,674 3064 [DEBUG] -   * 'TMP'='C:\Windows\TEMP' ('Machine')
+2017-05-23 04:44:03,674 3064 [DEBUG] -   * 'OS'='Windows_NT' ('Machine')
+2017-05-23 04:44:03,689 3064 [DEBUG] -   * 'windir'='C:\Windows' ('Machine')
+2017-05-23 04:44:03,689 3064 [DEBUG] -   * 'PROCESSOR_ARCHITECTURE'='AMD64' ('Machine')
+2017-05-23 04:44:03,689 3064 [DEBUG] -   * 'TEMP'='C:\Windows\TEMP' ('Machine')
+2017-05-23 04:44:03,705 3064 [DEBUG] -   * 'PATHEXT'='.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC' ('Machine')
+2017-05-23 04:44:03,705 3064 [DEBUG] -   * 'PSModulePath'='C:\Windows\system32\WindowsPowerShell\v1.0\Modules\' ('Machine')
+2017-05-23 04:44:03,705 3064 [DEBUG] -   * 'NUMBER_OF_PROCESSORS'='4' ('Machine')
+2017-05-23 04:44:03,705 3064 [DEBUG] -   * 'PROCESSOR_LEVEL'='6' ('Machine')
+2017-05-23 04:44:03,721 3064 [DEBUG] -   * 'PROCESSOR_IDENTIFIER'='Intel64 Family 6 Model 45 Stepping 7, GenuineIntel' ('Machine')
+2017-05-23 04:44:03,721 3064 [DEBUG] -   * 'PROCESSOR_REVISION'='2d07' ('Machine')
+2017-05-23 04:44:03,721 3064 [DEBUG] -   * 'HOME'='C:\Users\Administrator' ('Machine')
+2017-05-23 04:44:03,736 3064 [DEBUG] -   * 'ChocolateyInstall'='C:\ProgramData\chocolatey' ('Machine')
+2017-05-23 04:44:07,189 3064 [DEBUG] - Running list with the following filter = ''
+2017-05-23 04:44:07,189 3064 [DEBUG] - --- Start of List ---
+2017-05-23 04:44:07,830 3064 [DEBUG] - visualstudio2012-update 5.0.0.0
+2017-05-23 04:44:07,846 3064 [DEBUG] - --- End of List ---
+2017-05-23 04:44:08,159 3064 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\lib-bkp".
+2017-05-23 04:44:08,174 3064 [DEBUG] - Backing up existing visualstudio2012-update prior to operation.
+2017-05-23 04:44:08,190 3064 [DEBUG] - Moving 'C:\ProgramData\chocolatey\lib\visualstudio2012-update'
+ to 'C:\ProgramData\chocolatey\lib-bkp\visualstudio2012-update'
+2017-05-23 04:44:10,206 3064 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\lib\visualstudio2012-update".
+2017-05-23 04:44:10,221 3064 [DEBUG] - Attempting to copy "C:\ProgramData\chocolatey\lib-bkp\visualstudio2012-update\visualstudio2012-update.nupkg"
+ to "C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nupkg".
+2017-05-23 04:44:10,221 3064 [DEBUG] - Attempting to copy "C:\ProgramData\chocolatey\lib-bkp\visualstudio2012-update\visualstudio2012-update.nuspec"
+ to "C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nuspec".
+2017-05-23 04:44:11,767 3064 [DEBUG] - Capturing package files in 'C:\ProgramData\chocolatey\lib\visualstudio2012-update'
+2017-05-23 04:44:11,783 3064 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nupkg'
+  with checksum 'C227D8953DE38D97C86189F14B62BC19'
+2017-05-23 04:44:11,783 3064 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nuspec'
+  with checksum '5B6AF1B3F7B218733F89230AA85484B3'
+2017-05-23 04:44:12,033 3064 [INFO ] - [NuGet] Uninstalling 'visualstudio2012-update 5.0.0.0'.
+2017-05-23 04:44:12,064 3064 [INFO ] - 
+visualstudio2012-update v5.0.0.0
+2017-05-23 04:44:12,127 3064 [INFO ] -  Skipping auto uninstaller - No registry snapshot.
+2017-05-23 04:44:12,424 3064 [DEBUG] - Calling command ['"C:\Windows\System32\shutdown.exe" /a']
+2017-05-23 04:44:12,471 3064 [DEBUG] - Command ['"C:\Windows\System32\shutdown.exe" /a'] exited with '1116'
+2017-05-23 04:44:12,502 3064 [DEBUG] - Attempting to delete directory "C:\ProgramData\chocolatey\.chocolatey\visualstudio2012-update.5.0.0.0".
+2017-05-23 04:44:12,517 3064 [DEBUG] - Attempting to delete directory "C:\ProgramData\chocolatey\lib-bkp\visualstudio2012-update".
+2017-05-23 04:44:12,580 3064 [DEBUG] - [NuGet] Removed file 'visualstudio2012-update.nuspec' to folder 'C:\ProgramData\chocolatey\lib\visualstudio2012-update'.
+2017-05-23 04:44:12,596 3064 [DEBUG] - [NuGet] Removed file 'visualstudio2012-update.nupkg' to folder 'C:\ProgramData\chocolatey\lib\visualstudio2012-update'.
+2017-05-23 04:44:12,596 3064 [DEBUG] - [NuGet] Removed folder 'C:\ProgramData\chocolatey\lib\visualstudio2012-update'.
+2017-05-23 04:44:12,611 3064 [INFO ] - [NuGet] Successfully uninstalled 'visualstudio2012-update 5.0.0.0'.
+2017-05-23 04:44:12,627 3064 [INFO ] -  visualstudio2012-update has been successfully uninstalled.
+2017-05-23 04:44:12,642 3064 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nupkg".
+2017-05-23 04:44:12,721 3064 [WARN ] - 
+Chocolatey uninstalled 1/1 packages. 0 packages failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2017-05-23 04:44:12,736 3064 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2017-05-23 04:44:12,752 3064 [DEBUG] - Exiting with 0

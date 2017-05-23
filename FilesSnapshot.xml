@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nupkg" checksum="C227D8953DE38D97C86189F14B62BC19" />
+    <file path="C:\ProgramData\chocolatey\lib\visualstudio2012-update\visualstudio2012-update.nuspec" checksum="5B6AF1B3F7B218733F89230AA85484B3" />
+  </files>
+</fileSnapshot>
